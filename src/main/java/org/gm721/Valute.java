@@ -2,33 +2,33 @@ package org.gm721;
 
 public class Valute {
 
-    private int Nominal;
+    private int nominal;
 
-    private String Name;
+    private String name;
 
-    private float Value;
+    private float value;
 
     public int getNominal() {
-        return Nominal;
+        return nominal;
     }
 
     public void setNominal(int nominal) {
-        Nominal = nominal;
+        this.nominal = nominal;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public float getValue() {
-        return Value;
+        return value;
     }
 
     public void setValue(float value) {
-        Value = value;
+        this.value = value;
     }
 }
